@@ -5,12 +5,12 @@ public class ExamAllow {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the ttl number of classes  ");
-        int ttlclass = sc.nextInt();
+        int ttlclass = sc.nextInt(); //100
 
         System.out.print("classes attended by student ");
-        int Attend = sc.nextInt();
+        int Attend = sc.nextInt(); //75
 
-       int per = ( ttlclass / Attend) * 100;
+       double per = ((double) Attend / ttlclass) * 100;
         System.out.println("Percentage of attendance " + per + "%");
 
         if (per < 75) {
