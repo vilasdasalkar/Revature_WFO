@@ -37,6 +37,10 @@ public class JdbcDemo {
 		con=DriverManager.getConnection(url,uname,pwd);
 		
 		statement=con.createStatement();
+		//********************************************************
+		
+		
+		//****************************************************
 		String sql1="select * from revature_emp";
 		
 		resultSet=statement.executeQuery(sql1);
