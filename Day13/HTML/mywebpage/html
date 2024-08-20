@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+            line-height: 60px;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .profile-image {
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            border-radius: 50%;
+            border: 2px solid #0779e4;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-top: 10px;
+        }
+        .about {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px 0px #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Vilas Dasalkar</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <img src="photo me.jpg" alt="My Profile Picture" class="profile-image">
+            <h1>About Me</h1>
+            <p>
+                Hello! My name is Vilas Dasalkar. I'm currently working as an Associate Software Developer at Revature India. 
+                I have a strong background in Java Spring Boot, Maven, and MySQL, and I'm passionate about software development and cybersecurity. 
+                I enjoy solving complex problems and learning new technologies to expand my skill set. 
+                When I'm not coding, you can find me exploring new tools and techniques in the tech industry.
+            </p>
+            <p>
+                My journey into technology started with a keen interest in how things work, which led me to pursue a career in software development. 
+                I believe in continuous learning and am always looking for opportunities to grow both professionally and personally. 
+                I'm excited about the future of technology and look forward to contributing to innovative projects.
+            </p>
+            <p>
+                In addition to my technical skills, I value teamwork, collaboration, and effective communication, which I believe are crucial in any successful project. 
+                I am always open to new challenges and enjoy working in dynamic environments where I can make a meaningful impact.
+            </p>
+        </section>
+    </div>
+
+</body>
+</html>
