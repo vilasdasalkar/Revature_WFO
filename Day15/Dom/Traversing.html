@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Traversal Examples</title>
+</head>
+<body>
+  <div id="main">
+    <p id="para">This is a note!</p>
+  </div>
+
+  <div id="myDiv">
+    <p>This is a paragraph - first child</p>
+    <div>This is a div element - last child</div>
+  </div>
+
+  <ul>
+    <li>list item 1</li>
+    <li class="list">list item 2</li>
+    <li>list item 3</li>
+  </ul>
+
+  <script>
+    // Parent Node
+    let elmt = document.querySelector('#para');
+    document.write(elmt.parentNode + "<br>");
+
+    // Child Nodes
+    elmt = document.querySelector('#myDiv');
+    document.write("<br> Child nodes of div element: <br>");
+    for (let i = 0; i < elmt.childNodes.length; i++) {
+      document.write(elmt.childNodes[i] + "<br>");
+    }
+    document.write("<br> First child of div element: <br>" + elmt.firstChild);
+    document.write("<br> Last child of div element: <br>" + elmt.lastChild);
+
+    // Sibling Nodes
+    const secondListItem = document.querySelector('.list');
+    document.write(secondListItem.previousElementSibling.textContent);
+    document.write(secondListItem.nextElementSibling.textContent);
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+</head>
+<body>
+    <ul id="To-Do">
+    </ul>
+    
+    <script>
+        function createToDoListItem(name) {
+            let li = document.createElement('li');
+            li.textContent = name;
+            return li;
+        }
+
+        const list = document.querySelector('#To-Do');
+
+        list.appendChild(createToDoListItem('Study'));
+        list.appendChild(createToDoListItem('Bath'));
+        list.appendChild(createToDoListItem('Eat'));
+
+
+        let newItem = createToDoListItem('Exercise');
+        list.insertBefore(newItem, list.firstElementChild);
+    </script>
+</body>
+</html>
