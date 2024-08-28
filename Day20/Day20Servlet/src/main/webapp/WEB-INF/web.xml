@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <context-param>
+    <param-name>contextParam</param-name>
+    <param-value>Hello Context</param-value>
+  </context-param>
+  <servlet>
+    <display-name>Servlet_1</display-name>
+    <servlet-name>Servlet_1</servlet-name>
+    <servlet-class>com.revature.vilasServlet.Servlet_1</servlet-class>
+    <init-param>
+      <param-name>messageOne</param-name>
+      <param-value>Hello servlet one</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet_1</servlet-name>
+    <url-pattern>/Servlet_1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>Servlet_2</display-name>
+    <servlet-name>Servlet_2</servlet-name>
+    <servlet-class>com.revature.vilasServlet.Servlet_2</servlet-class>
+    <init-param>
+      <param-name>messageTwo</param-name>
+      <param-value>Hello servlet two</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet_2</servlet-name>
+    <url-pattern>/Servlet_2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>InsideServlet</display-name>
+    <servlet-name>InsideServlet</servlet-name>
+    <servlet-class>com.revature.vilasServlet.InsideServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsideServlet</servlet-name>
+    <url-pattern>/InsideServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>Servlet_3</display-name>
+    <servlet-name>Servlet_3</servlet-name>
+    <servlet-class>com.revature.vilasServlet.Servlet_3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet_3</servlet-name>
+    <url-pattern>/Servlet_3</url-pattern>
+  </servlet-mapping>
+  <display-name>Day20Servlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>FirstServlet</display-name>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>com.revature.vilasServlet.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>/FirstServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SecondServlet</display-name>
+    <servlet-name>SecondServlet</servlet-name>
+    <servlet-class>com.revature.vilasServlet.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SecondServlet</servlet-name>
+    <url-pattern>/SecondServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
