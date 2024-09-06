@@ -1,0 +1,5 @@
+com\revature\mappings\CarInsurance.class
+com\revature\utils\HibernateUtils.class
+com\revature\mappings\HomeInsurance.class
+com\revature\mappings\Insurance.class
+com\revature\mappings\MainClass.class

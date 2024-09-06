@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+    <!-- Bean definition for BaseBallCoach -->
+    <bean id="bCoach" class="com.revature.spring.BaseBallCoach"></bean>
+    
+    <!-- Bean definition for CricketCoach -->
+    <bean id="cCoach" class="com.revature.spring.CricketCoach"></bean>
+    
+    
+<bean id="happy" class="com.revature.HappyFortuneService"></bean>
+
+<bean id="bCoach" class="com.revature.BaseBallCoach" scope="singleton">
+<!-- <constructor-arg ref="happy"></constructor-arg> -->
+<property name="happy" ref="happy"></property>
+
+</bean>
+</beans>
