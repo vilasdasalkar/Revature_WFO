@@ -1,0 +1,88 @@
+2024-09-12T14:55:10.523+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] c.revature.SpringbootJpaDemoApplication  : Starting SpringbootJpaDemoApplication using Java 22.0.2 with PID 35832 (C:\Users\vilas\OneDrive\Desktop\Revature_Vilas\SpringbootJPADemo\target\classes started by vilas in C:\Users\vilas\OneDrive\Desktop\Revature_Vilas\SpringbootJPADemo)
+2024-09-12T14:55:10.524+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] c.revature.SpringbootJpaDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T14:55:10.746+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T14:55:10.752+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2024-09-12T14:55:10.896+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-12T14:55:10.896+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T14:55:10.896+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T14:55:10.914+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T14:55:10.915+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 389 ms
+2024-09-12T14:55:11.152+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T14:55:11.156+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T14:55:11.174+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T14:55:11.178+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-09-12T14:55:11.220+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fc443e7
+2024-09-12T14:55:11.220+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-09-12T14:55:11.285+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T14:55:11.299+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T14:55:11.410+05:30  WARN 35832 --- [SpringbootJPADemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T14:55:11.765+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12T14:55:11.772+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-09-12T14:55:11.804+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-12T14:55:11.810+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] c.revature.SpringbootJpaDemoApplication  : Started SpringbootJpaDemoApplication in 1.371 seconds (process running for 11781.266)
+2024-09-12T14:55:11.816+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name mylogs.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-09-12T14:56:27.044+05:30  INFO 35832 --- [SpringbootJPADemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-09-12T14:56:27.068+05:30  INFO 35832 --- [SpringbootJPADemo] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T14:56:27.076+05:30  INFO 35832 --- [SpringbootJPADemo] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-09-12T14:56:27.094+05:30  INFO 35832 --- [SpringbootJPADemo] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-09-12T14:56:27.197+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] c.revature.SpringbootJpaDemoApplication  : Starting SpringbootJpaDemoApplication using Java 22.0.2 with PID 35832 (C:\Users\vilas\OneDrive\Desktop\Revature_Vilas\SpringbootJPADemo\target\classes started by vilas in C:\Users\vilas\OneDrive\Desktop\Revature_Vilas\SpringbootJPADemo)
+2024-09-12T14:56:27.200+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] c.revature.SpringbootJpaDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T14:56:27.471+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-12T14:56:27.480+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-09-12T14:56:27.845+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-12T14:56:27.846+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T14:56:27.847+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T14:56:27.871+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T14:56:27.871+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 669 ms
+2024-09-12T14:56:28.092+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-12T14:56:28.113+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-12T14:56:28.127+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-12T14:56:28.135+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-09-12T14:56:28.161+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48e2e234
+2024-09-12T14:56:28.162+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-09-12T14:56:28.197+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-12T14:56:28.207+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T14:56:28.335+05:30  WARN 35832 --- [SpringbootJPADemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-12T14:56:28.727+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-12T14:56:28.732+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-09-12T14:56:28.756+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-12T14:56:28.762+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] c.revature.SpringbootJpaDemoApplication  : Started SpringbootJpaDemoApplication in 1.585 seconds (process running for 11858.218)
+2024-09-12T14:56:28.763+05:30  INFO 35832 --- [SpringbootJPADemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-12T14:56:30.144+05:30  INFO 35832 --- [SpringbootJPADemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 11 class path changes (0 additions, 0 deletions, 11 modifications)
+2024-09-12T14:56:30.150+05:30  INFO 35832 --- [SpringbootJPADemo] [Thread-35] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-12T14:56:30.151+05:30  INFO 35832 --- [SpringbootJPADemo] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-09-12T14:56:30.157+05:30  INFO 35832 --- [SpringbootJPADemo] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
